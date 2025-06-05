@@ -4,7 +4,7 @@
 Create a simple HTML layout for a nonprofit landing page with sections for a hero, a story, and a call-to-action.
 
 ## Style with Brand Identity
-Write CSS using a color palette of [insert your brand colors] and fonts that feel [insert tone, e.g., bold and modern].
+Write CSS using a color palette of [black and dark yellow] and fonts that feel [ bold tone, e.g., bold and modern].
 
 ## Build the Hero Section
 Create a hero section with a centered headline, subheadline, and full-width background image that grabs attention.
