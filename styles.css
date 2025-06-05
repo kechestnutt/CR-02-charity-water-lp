@@ -17,3 +17,105 @@ Fonts:
 - Avenir
 
 */
+
+/* Set the main background color and font for the page */
+body {
+  background-color: #000; /* Black background */
+  color: #FFD600;         /* Dark yellow text */
+  font-family: Arial, Helvetica, sans-serif; /* Simple, bold font */
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero section styles */
+.hero {
+  /* Use a placeholder background image */
+  background-image: url('https://via.placeholder.com/1200x400');
+  background-size: cover;      /* Make image cover the whole section */
+  background-position: center; /* Center the image */
+  text-align: center;          /* Center the text */
+  padding: 60px 20px;          /* Add space around the content */
+}
+
+.hero h1 {
+  font-size: 2.5em;    /* Large, bold headline */
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #FFD600;       /* Dark yellow headline */
+}
+
+.hero p {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;          /* White subheadline for contrast */
+}
+
+/* Story section styles */
+.story {
+  background-color: #111; /* Very dark background for separation */
+  display: flex;          /* Place image and text side by side */
+  align-items: center;    /* Vertically center items */
+  padding: 40px 20px;
+}
+
+.story img {
+  width: 200px;
+  height: 150px;
+  margin-right: 20px;
+  border: 4px solid #FFD600; /* Yellow border for emphasis */
+}
+
+.story-text h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 0;
+  color: #FFD600;
+}
+
+.story-text p {
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Call-to-action section styles */
+.cta {
+  background-color: #FFD600; /* Yellow background */
+  color: #000;               /* Black text */
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.cta h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cta button {
+  background-color: #000;    /* Black button */
+  color: #FFD600;            /* Yellow text */
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Add a simple hover effect to the button */
+.cta button:hover {
+  background-color: #333;    /* Slightly lighter black on hover */
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 600px) {
+  /* This media query makes the layout stack vertically on small screens */
+  .story {
+    flex-direction: column; /* Stack image and text vertically */
+    text-align: center;
+  }
+  .story img {
+    margin: 0 0 20px 0;    /* Add space below the image */
+  }
+}
